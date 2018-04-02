@@ -8,6 +8,15 @@ h1#title, h3#subtitle {
   font-family: 'Arapey', serif;
 }
 
+h1#title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h3#subtitle {
+  font-size: 20px;
+}
+
 .center {
   text-align: center;
 }
@@ -56,6 +65,10 @@ img {
 
 h4#project-author {
   padding-top: 10%;
+}
+
+img#gha-logo {
+  margin-top: 5%;
 }
 
 #footer {
