@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <title>guessingGame</title>
-
-    <!-- Bootstrap and CSS here-->
     <link rel="stylesheet" href="style.css"></link>
   </head>
   <body>
@@ -11,20 +9,17 @@
       <div id='app'>
 
         <div id='headers'>
-          <!-- Title and subtitles! -->
           <h1 id="title" class="center">Play the Guessing Game!</h1>
           <h3 id="subtitle" class="center">Guess a number between 1-100!</h3>
         </div>
 
         <div id='main'>
           <div id='input-parent' class="center">
-            <!-- Player's guess input, and submit button -->
             <input type="text" class="center" name="player-guess" value="" placeholder="Input Guess" id="players-input"></input>
             <button type="button" name="guess-button" id="submit">Submit</button>
           </div>
 
           <div id='guesses' class="center">
-            <!-- unordered list of guesses -->
             <ul id="guess-list">
               <li class="guess">Guess 1</li>
               <li class="guess">Guess 2</li>
@@ -33,7 +28,6 @@
           </div>
 
           <div id="menu-btns" class="center">
-            <!-- reset and hint buttons -->
             <button type="button" name="reset-button" id="reset">Reset</button>
             <button type="button" name="hint-button" id="hint">Hint</button>
           </div>
