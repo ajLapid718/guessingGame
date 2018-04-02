@@ -71,6 +71,11 @@ img#gha-logo {
   margin-top: 5%;
 }
 
+.col-sm-4 {
+  width: 33.3%;
+  float: left;
+}
+
 #footer {
   width: 100%;
   /* border-top: solid 2px black; */
