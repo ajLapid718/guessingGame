@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Guessing Game</title>
+    <title>guessingGame</title>
 
     <!-- Bootstrap and CSS here-->
     <link rel="stylesheet" href="style.css"></link>
@@ -12,18 +12,18 @@
 
         <div id='headers'>
           <!-- Title and subtitles! -->
-          <h1 id="title">Play the Guessing Game!</h1>
-          <h3 id="subtitle">Guess a number between 1-100!</h3>
+          <h1 id="title" class="center">Play the Guessing Game!</h1>
+          <h3 id="subtitle" class="center">Guess a number between 1-100!</h3>
         </div>
 
         <div id='main'>
-          <div id='input-parent'>
+          <div id='input-parent' class="center">
             <!-- Player's guess input, and submit button -->
-            <input type="text" name="player-guess" value="" placeholder="Input Guess"></input>
+            <input type="text" class="center" name="player-guess" value="" placeholder="Input Guess"></input>
             <button type="button" name="guess-button">Submit</button>
           </div>
 
-          <div id='guesses'>
+          <div id='guesses' class="center">
             <!-- unordered list of guesses -->
             <ul>
               <li class="guess">Guess 1</li>
@@ -32,7 +32,7 @@
             </ul>
           </div>
 
-          <div id="menu-btns">
+          <div id="menu-btns" class="center">
             <!-- reset and hint buttons -->
             <button type="button" name="reset-button">Reset</button>
             <button type="button" name="hint-button">Hint</button>
@@ -40,7 +40,7 @@
         </div>
       </div>
 
-    <div id='footer'>
+    <div id='footer' class="center">
         <div>
           <div class=''>
             <img src='fa-logo@2x.png'></img>
